@@ -1,7 +1,8 @@
 *{
     padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
 }
 
 @import url('../Styles/header.css');
+@import url('../Styles/body.css');
+@import url('../Styles/CurrentWeather.css');
