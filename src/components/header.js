@@ -1,17 +1,29 @@
-import React from 'react'
-import "..//CSS/header.css"
-export default function header() {
+import React, { useState } from "react";
+import "../Styles/header.css";
+
+export default function Header() {
+  const [query, setQuery] = useState("");
+
+  const handleSearch = (event) => {
+    setQuery(event.target.value);
+    console.log("Searching for:", event.target.value);
+  };
+
   return (
     <header>
-        <nav className="navbar">
-            <div className="logo">WeatherSync</div>
-            <ul className="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#forecast">Forecast</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav className="navbar">
+        <div className="logo">WeatherNow</div>
+        <div className="Search-Bar">
+          <input
+            type="text"
+            className="search-input"
+            placeholder="Search location..."
+            value={query}
+            onChange={handleSearch}
+          />
+          <button className="search-button">Search</button>
+        </div>
+      </nav>
     </header>
-  )
+  );
 }
