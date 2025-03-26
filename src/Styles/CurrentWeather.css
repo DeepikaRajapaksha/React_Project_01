@@ -1,11 +1,11 @@
 .CurrentWeather{
-  padding: 5% 12% 2% 12%;
+  padding: 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
   .location{
-    font-size: 3rem;
+    font-size: 20px;
     color: #170657; 
   }
   .location i {
@@ -14,6 +14,8 @@
   }
 
   .temperature{
-    
+    .value{
+      font-size: 18px;
+    }
   }
 }

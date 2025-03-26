@@ -34,7 +34,8 @@ function CurrentWeather() {
           <div className="value">
                 <div className="real">{temperature} °C</div>
                 <div className="feels_like"> feels like {feels_like} °C</div>
-            </div>
+          </div>
+          <div className="summary">{summary}</div>
        </div>
     </div>
   )
