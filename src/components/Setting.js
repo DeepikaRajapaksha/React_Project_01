@@ -4,10 +4,10 @@ function Setting() {
     <div className="Settings">
       <div className="theme-toggler">
         <div className="theme-buttons">
-          <div className="light-theme-btn">
+          <div className="light-theme-btn active">
             <i className="bi bi-sun"></i>
           </div>
-          <div className="dark-theme-btn active">
+          <div className="dark-theme-btn">
             <i className="bi bi-moon"></i>
           </div>
         </div>

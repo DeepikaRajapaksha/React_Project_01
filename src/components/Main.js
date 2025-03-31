@@ -1,7 +1,10 @@
 import "../Styles/components/Main.scss";
+import CurrentWeather from "./CurrentWeather";
 function Main() {
   return (
-    <div className='Main'>Main</div>
+    <div className='Main'>
+      <CurrentWeather />
+    </div>
   )
 }
 

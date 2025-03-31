@@ -1,31 +1,32 @@
 {
-    "lat":"51.50853N",
-    "lon":"0.12574W",
-    "elevation":25,
-    "timezone":"Europe/London",
-    "units":"uk",
-    "current":{
-        "icon":"overcast",
-        "icon_num":7,
-        "summary":"Overcast",
-        "temperature":5.5,
-        "feels_like":3.5,
-        "wind_chill":4.5,
-        "dew_point":4.2,
-        "wind":{
-            "speed":6.4,
-            "gusts":8.1,
-            "angle":271,
-            "dir":"W"
-            },
-        "precipitation":{
-            "total":0.0,
-            "type":"none"},
-            "cloud_cover":95,
-            "ozone":239.05,
-            "pressure":1022,
-            "uv_index":1.06,
-            "humidity":96,
-            "visibility":0.93
-            }
-        }
+    "lat": "51.50853N",
+    "lon": "0.12574W",
+    "elevation": 25,
+    "timezone": "Europe/London",
+    "units": "uk",
+    "current": {
+        "icon": "sunny",
+        "icon_num": 2,
+        "summary": "Sunny",
+        "temperature": 12.0,
+        "feels_like": 10.2,
+        "wind_chill": 11.8,
+        "dew_point": 4.5,
+        "wind": {
+            "speed": 4.5,
+            "gusts": 7.3,
+            "angle": 61,
+            "dir": "ENE"
+        },
+        "precipitation": {
+            "total": 0.0,
+            "type": "none"
+        },
+        "cloud_cover": 1,
+        "ozone": 280.37,
+        "pressure": 1030,
+        "uv_index": 3.38,
+        "humidity": 65,
+        "visibility": 14.69
+    }
+}
