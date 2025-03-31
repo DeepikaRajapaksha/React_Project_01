@@ -1,13 +1,12 @@
-import './App.css';
-import "./Styles/main.css"
-import Header from "./components/header"; 
-import Body from "./components/body";
-
+import Header from "./components/Header";
+import Main from "./components/Main";
+import "./Styles/components/App.scss";
 function App() {
+  const dark = true;
   return (
-    <div>
+    <div className={`App-${dark ? 'dark' : 'light'}`}>
       <Header />
-      <Body />
+      <Main />
     </div>
   );
 }
