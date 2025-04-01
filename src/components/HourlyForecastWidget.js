@@ -27,6 +27,3 @@ function HourlyForecastWidget({data}) {
 export default HourlyForecastWidget
 
 
-//try to get pull from main
-//good luck girl
-//good luck
