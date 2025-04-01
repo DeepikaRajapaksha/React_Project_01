@@ -1,6 +1,8 @@
 import { getCurrentWeather } from "../api";
 import "../Styles/components/CurrentWeather.scss";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import WeatherIcon from "./WeatherIcon";
+
 
 function CurrentWeather() {
     const data = getCurrentWeather();
@@ -66,10 +68,7 @@ function CurrentWeather() {
     <div className="CurrentWeather">
        <div className="temperature">
           <div className="weather-icon">
-            <img 
-            src={`${process.env.PUBLIC_URL}/dest/weather_icons/set04/big/${icon_num}.png`} 
-            alt={summary}
-            />
+            <WeatherIcon iconNumber = {icon_num} summary = {summary} />
           </div>
           <div className="value">
                 <div className="real">{temperature} °C</div>
